@@ -1,0 +1,31 @@
+{
+  "num_samples": 24000,
+  "columns": [
+    "email",
+    "type"
+  ],
+  "category_distribution": {
+    "Incident": 9586,
+    "Request": 6860,
+    "Problem": 5037,
+    "Change": 2517
+  },
+  "email_length_stats": {
+    "average": 566.6069166666666,
+    "min": 54,
+    "max": 3001
+  },
+  "pii_analysis": {
+    "emails_with_pii_percentage": 99.4,
+    "pii_counts": {
+      "full_name": 2719,
+      "email": 685,
+      "phone_number": 98,
+      "dob": 248,
+      "aadhar_num": 0,
+      "credit_debit_no": 0,
+      "cvv_no": 0,
+      "expiry_no": 0
+    }
+  }
+}
