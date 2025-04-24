@@ -79,6 +79,14 @@ pip install -r requirements.txt
 cp /path/to/your/dataset combined_emails_with_natural_pii.csv
 ```
 
+## Dataset Requirement
+
+**Important:** The dataset file `combined_emails_with_natural_pii.csv` must be placed in the root directory of the project.
+
+- Dataset is not included in this repository due to size constraints
+- Download the dataset from [source link] and place it in the project root folder
+- Ensure the filename is exactly `combined_emails_with_natural_pii.csv`
+
 ### Analyzing the Dataset
 
 Before training the model, you can analyze the dataset to understand its structure:
